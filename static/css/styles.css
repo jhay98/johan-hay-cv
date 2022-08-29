@@ -1,0 +1,62 @@
+h1, h2, p {
+    text-align: center;
+    color: aqua;
+}
+
+.container {
+    background-color: aqua;
+    width: 95%;
+    margin: 100px auto;
+    display: flex;
+    padding: 10px;
+    height: 600px;
+}
+
+
+.box {
+    background-color: blue;
+    border: aqua solid 10px;
+    flex: 1;
+    padding: 7px;
+    transition: .6s;
+}
+
+.box:hover {
+    flex: 4;
+}
+
+.hiddentxt {
+    opacity: 0;
+    font-size: 0px;
+}
+
+.box:hover .hiddentxt {
+    font-size: 18px;
+    opacity: 1;
+}
+
+.box:hover #experience{
+    font-size: 18px;
+    opacity: 1;
+    transition: .6s;
+}
+
+.box:hover #lan{
+    font-size: 18px;
+    opacity: 1;
+    transition: .6s;
+}
+
+h3 {
+    color: lightblue;
+    font-size: 35px;
+    transition: .6s;
+}
+
+.box:hover h3{
+    font-size: 18px;
+}
+
+li, h4 {
+    color: lightblue;
+}
